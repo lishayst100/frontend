@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+## Hello dear tester,
+First of all, thank you for checking the project for me and if there are any comments about it, please let me know and I will fix it.
+My name is Lishay Shem Tov and this is my middle project in React,
+The idea of my project was actually to make an online store for buying phones and also to upload second hand products for sale on a dedicated page.
+I used several tools and they are: react redux javascript and sass
+To set up an api for myself I used node.js.
+To run the project, go to the backend folder and run the "nodemon" command in the terminal.
+Then, to run the project and see it, enter the "frontend" folder and run the "npm start" command.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Home page:
 
-## Available Scripts
+As you can see on the home page there is a list of phones and a number of filters where you can sort the phones by price, by software and by name and there is also an option to search for phones in a text box as well as a button that filters only Apple products./
+Each product has two buttons, one to add to cart and the other button is a link to details about that product./
 
-In the project directory, you can run:
+### Shopping cart:
 
-### `npm start`
+On the shopping cart page there is a list of products that you added to the cart from the home page./ You have the ability to add a quantity of the same product, remove the desired product, as well as remove all the products in the cart./ Everything is saved in local storage./
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Second hand cards page:
+On the cards page you have the ability to add a card, edit an existing card and also delete a card from the list here too everything is saved in local storage.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### name: Lishay Shem Tov
+#### phone : 0503321366
+#### mail: lishayst100@gmail.com
+#### course number: W140722MR
