@@ -8,6 +8,7 @@ import { addToCart } from '../features/cartSlice'
 import { Link, useNavigate } from 'react-router-dom'
 import products from '../features/json'
 import Header from './Header'
+import Swal from 'sweetalert2'
 
 
 
@@ -53,7 +54,20 @@ const Home = () => {
 
   const handleAddToCart = (product) => {
     dispatch(addToCart(product));
-    navigate('/cart')
+    Swal.fire({
+      title: `${product.name} added to cart`,
+      text: "Do you want continue shopping or go to cart?",
+      icon: 'success',
+      showCancelButton: true,
+      cancelButtonText: 'Continue Shopping',
+      confirmButtonColor: '#198754',
+      cancelButtonColor: '#3085d6',
+      confirmButtonText: 'Go to Cart'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        navigate('/cart')
+      }
+    })
   }
 
 
